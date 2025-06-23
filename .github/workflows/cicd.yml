@@ -16,7 +16,6 @@ jobs:
 
       - name: Build docker image
         run: docker build -t zaid57/nodejs-app .
-
       - name: Publish image to docker hub
         run: docker push zaid57/nodejs-app:latest
 
